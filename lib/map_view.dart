@@ -32,7 +32,7 @@ class _MapViewState extends State<MapView> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Google Map'),
+        title: Center(child: const Text('Map View')),
         backgroundColor: Colors.deepPurple, // AppBar color for better UI
       ),
       body: GoogleMap(
